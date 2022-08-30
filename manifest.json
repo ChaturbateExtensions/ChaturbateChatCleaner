@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Chaturbate Chat Cleaner",
+    "description": "A minimal extension to remove commonly repeated messages in chat",
+    "version": "1.0.0",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
+    },
+    "options_page": "settings/settings.html",
+    "permissions": [],
+    "host_permissions": ["https://chaturbate.com/*"],
+    "content_scripts": [{
+        "js": ["contentScripts/jquery-3.6.0.js","contentScripts/analytics.js","contentScripts/contentScript.js"],
+        "matches": ["https://chaturbate.com/*/"]
+    }]
+}

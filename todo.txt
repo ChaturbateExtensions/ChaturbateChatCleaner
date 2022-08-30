@@ -1,0 +1,8 @@
+Add new menu
+- Add tab (default color after settings)
+- Add click event to the tab to change tab colors (remove active tab css)
+- Add new box
+- Set other as inactive or whatever CB does
+Add removed notification items to menu (Hide/cache if
+
+JUST DO IT!  WORRY ABOUT GOOGLE LATER
